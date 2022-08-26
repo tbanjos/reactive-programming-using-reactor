@@ -15,5 +15,5 @@ public class MovieInfo {
     private String name;
     private Integer year;
     private List<String> cast;
-    private LocalDate release_date;
+    private LocalDate releaseDate;
 }

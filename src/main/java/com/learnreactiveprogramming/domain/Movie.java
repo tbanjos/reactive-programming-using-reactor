@@ -10,8 +10,10 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Movie {
+
     private MovieInfo movie;
     private List<Review> reviewList;
+
     private Revenue revenue;
 
     public Movie(MovieInfo movie, List<Review> reviewList) {
